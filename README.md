@@ -10,7 +10,7 @@ Automated selenium browser driver that authenticates and exports data from Conve
 5. $ `pip install -r requirements.txt`
 6. Create service account for GCP and [download credentials](https://cloud.google.com/iam/docs/creating-managing-service-accounts) (ex: .json file)
 7. Download Chromedriver for Selenium [here.](https://chromedriver.storage.googleapis.com/index.html) Note: Save path to Chromedriver
-8. $ `touch .env` & add these environment variables 
+8. $ `nano .env` & add these environment variables 
 ```
 USERNAME =
 PASSWORD =
